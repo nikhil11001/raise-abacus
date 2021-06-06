@@ -78,7 +78,7 @@ class Home extends React.Component {
           <Carousel.Item>
             <img className="d-block w-100" src={Banner3} />
             <Carousel.Caption>
-              <h1>RAISE YOUR CHILD'S FUTURE WITH RAISE ABACUS</h1>
+              <h1>Raise your child's future with RAISE ABACUS</h1>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -92,6 +92,9 @@ class Home extends React.Component {
               className="d-block w-100"
               src="https://www.insidehighered.com/sites/default/server_files/media/Inside%20Digital%20Learning/iStock-872232248.jpg"
             />
+            <Carousel.Caption>
+              <h1>Raise your career with RAISE ABACUS</h1>
+            </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
         <Container>
@@ -395,18 +398,19 @@ class Home extends React.Component {
               <Col md={4}>
                 <h6 className="margin-10">CONTACT</h6>
                 <p>
-                  <i class="bi bi-cursor margin-10"></i>Unit No.3, Building
-                  No.1, Ground Floor, Liliya Nagar, Off S.V.Road, Goregaon
-                  (West), Mumbai-400 062. India.
+                  <i class="bi bi-cursor margin-10"></i>Flat No - 402, Ekdant
+                  Apt. Amba Colony, Near Adivasi Hostel, Amravati, Maharashtra
+                  44460
                 </p>
 
                 <p>
-                  <i class="bi bi-phone margin-10"></i>Phone:+91 9820058279
+                  <i class="bi bi-phone margin-10"></i>Phone:+91 77450 29284,
+                  +91 7219585305
                 </p>
 
                 <p>
                   <i class="bi bi-envelope-open margin-10"></i>Email:
-                  info@biscoindia.com
+                  raiseabacus2020@gmail.com
                 </p>
               </Col>
             </Row>
