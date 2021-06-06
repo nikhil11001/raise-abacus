@@ -55,7 +55,6 @@ class Home extends React.Component {
         <Navbar bg="light" variant="light" fixed="top">
           <Container>
             <Nav className="mr-auto">
-              <Image src={raiseLogo} width="10%" />
               <Nav.Link className="margin-top-20">
                 <Link to="/home">HOME</Link>
               </Nav.Link>
