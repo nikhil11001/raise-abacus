@@ -53,7 +53,10 @@ class Home extends React.Component {
       <>
         {/* <Navbar collapseOnSelect bg="light" variant="light" fixed="top" expand="sm"> */}
         <Navbar bg="light" variant="light" fixed="top">
-          <Container>
+          <Navbar.Brand href="#home">
+            <Image src={raiseLogo} width="100px" />
+          </Navbar.Brand>
+          <div>
             <Nav className="mr-auto">
               <Nav.Link className="margin-top-20">
                 <Link to="/home">HOME</Link>
@@ -71,7 +74,7 @@ class Home extends React.Component {
                 <Link to="/contact">CONTACT</Link>
               </Nav.Link>
             </Nav>
-          </Container>
+          </div>
         </Navbar>
         <Carousel>
           <Carousel.Item>

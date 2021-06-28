@@ -25,7 +25,10 @@ class Contact extends React.Component {
     return (
       <>
         <Navbar bg="light" variant="light" fixed="top">
-          <Container>
+          <Navbar.Brand href="#home">
+            <Image src={raiseLogo} width="100px" />
+          </Navbar.Brand>
+          <div>
             <Nav className="mr-auto">
               <Nav.Link className="margin-top-20">
                 <Link to="/home">HOME</Link>
@@ -43,7 +46,7 @@ class Contact extends React.Component {
                 <Link to="/contact">CONTACT</Link>
               </Nav.Link>
             </Nav>
-          </Container>
+          </div>
         </Navbar>
         <Container>
           <div style={{ margin: "70px 0px" }}></div>
@@ -73,17 +76,29 @@ class Contact extends React.Component {
                 <Form>
                   <Form.Group controlId="formBasicEmail">
                     <Form.Label>Name</Form.Label>
-                    <Form.Control type="text" placeholder="Enter Name" />
+                    <Form.Control
+                      type="text"
+                      placeholder="Enter Name"
+                      disabled
+                    />
                   </Form.Group>
 
                   <Form.Group controlId="formBasicEmail">
                     <Form.Label>Mobile No</Form.Label>
-                    <Form.Control type="number" placeholder="Enter Mobile No" />
+                    <Form.Control
+                      type="number"
+                      placeholder="Enter Mobile No"
+                      disabled
+                    />
                   </Form.Group>
 
                   <Form.Group controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" />
+                    <Form.Control
+                      type="email"
+                      placeholder="Enter email"
+                      disabled
+                    />
                     <Form.Text className="text-muted">
                       We'll never share your email with anyone else.
                     </Form.Text>
@@ -91,9 +106,13 @@ class Contact extends React.Component {
 
                   <Form.Group controlId="formBasicPassword">
                     <Form.Label>Message</Form.Label>
-                    <Form.Control type="text" placeholder="Enter Message" />
+                    <Form.Control
+                      type="text"
+                      placeholder="Enter Message"
+                      disabled
+                    />
                   </Form.Group>
-                  <Button variant="primary" type="submit">
+                  <Button variant="primary" type="submit" disabled>
                     Submit
                   </Button>
                 </Form>
